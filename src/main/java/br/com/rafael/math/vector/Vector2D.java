@@ -14,7 +14,8 @@ package br.com.rafael.math.vector;
  * GNU General Public License for more details.
  *
  * <p>You should have received a copy of the Lesser GNU General Public License along with MathUtils.
- * If not, see &#60;https://www.gnu.org/licenses/&#62;.
+ * If not, see &#60; https://www.gnu.org/licenses/ &#62; .
+ *
  */
 
 import java.io.Serializable;
