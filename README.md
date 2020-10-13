@@ -1,2 +1,2 @@
 # MathUtils
-Nath utilities for java
+Math utilities for java
