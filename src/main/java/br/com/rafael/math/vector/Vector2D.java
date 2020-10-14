@@ -334,10 +334,10 @@ public class Vector2D implements Cloneable, Comparable<Vector2D>, Serializable {
    * Retorna o produto escalar entre dois vetores.
    * 
    * @param other Outro vetor.
-   * @return √(x0 * x1 + y0 * y1).
+   * @return x0 * x1 + y0 * y1.
    */
   public double dot(Vector2D other) {
-    return Math.sqrt(this._x * other._x + this._y * other._y);
+    return this._x * other._x + this._y * other._y;
   }
 
   /**
