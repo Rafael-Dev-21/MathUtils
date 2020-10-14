@@ -1,6 +1,8 @@
 package br.com.rafael.math;
 /**
- * Copyright© 2020 Victor Rafael Pereira Alves This file is part of MathUtils.
+ * Copyright© 2020 Victor Rafael Pereira Alves
+ *
+ * <p>This file is part of MathUtils.
  *
  * <p>MathUtils is free software: you can redistribute it and/or modify it under the terms of the
  * Lesser GNU General Public License as published by the Free Software Foundation, either version 3
@@ -13,7 +15,9 @@ package br.com.rafael.math;
  * <p>You should have received a copy of the Lesser GNU General Public License along with MathUtils.
  * If not, see &#60; https://www.gnu.org/licenses/ &#62;.
  */
+
 import br.com.rafael.math.vector.Vector2D;
+import br.com.rafael.math.vector.Vector3D;
 
 public final class MathUtils {
 
@@ -83,6 +87,10 @@ public final class MathUtils {
   }
 
   public static final Vector2D truncate(Vector2D vector, double size) {
+    return vector.size() > size ? vector.resize(size) : vector;
+  }
+
+  public static final Vector3D truncate(Vector3D vector, double size) {
     return vector.size() > size ? vector.resize(size) : vector;
   }
 }
