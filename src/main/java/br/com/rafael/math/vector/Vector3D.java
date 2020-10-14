@@ -158,7 +158,7 @@ public class Vector3D implements Cloneable, Comparable<Vector3D>, Serializable {
   }
   
   public double dot(Vector3D other) {
-    return Math.sqrt(this._x * other._x + this._y * other._y + this._z * other._z);
+    return this._x * other._x + this._y * other._y + this._z * other._z;
   }
   
   public Vector3D crossMe(Vector3D other) {
