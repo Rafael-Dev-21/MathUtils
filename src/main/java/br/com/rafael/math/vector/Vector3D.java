@@ -145,11 +145,11 @@ public class Vector3D implements Cloneable, Comparable<Vector3D>, Serializable {
     return clone().normalizeMe();
   }
   
-  public Vector3D resizeMe(float size) {
+  public Vector3D resizeMe(double size) {
     return normalizeMe().multiplyMe(size);
   }
   
-  public Vector3D resize(float size) {
+  public Vector3D resize(double size) {
     return clone().resizeMe(size);
   }
   
