@@ -13,8 +13,6 @@ package br.com.rafael.math.geometry.plane;
  * <p>You should have received a copy of the Lesser GNU General Public License along with MathUtils.
  * If not, see &#60;https://www.gnu.org/licenses/&#62;.
  */
-import br.com.rafael.math.geometry.plane.Circle;
-import br.com.rafael.math.geometry.plane.Point2D;
 
 import java.io.Serializable;
 
