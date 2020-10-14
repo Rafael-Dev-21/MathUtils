@@ -17,7 +17,6 @@ package br.com.rafael.math.vector;
  *
  */
 
-import br.com.rafael.math.vector.Vector3D;
 import java.io.Serializable;
 
 public class Vector3D implements Cloneable, Comparable<Vector3D>, Serializable {
