@@ -355,6 +355,7 @@ public class Vector2D implements Cloneable, Comparable<Vector2D>, Serializable {
    *
    * @param other Outro vetor.
    * @return |this - other|.
+   */
   public double distance(Vector2D other) {
     return this.subtract(other).size();
   }
